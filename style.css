@@ -1,0 +1,40 @@
+*{margin: 0;padding: 0;}
+.wrapper{
+    width: 960px;
+    margin: 5px auto;
+}
+.box{
+    width: 300px;
+    float: left;
+    margin-right: 30px;
+}
+.box img{
+    width: 300px;
+    height: 180px;
+}
+.nomargin{
+    margin-right: 0px;
+}
+.box h1{
+    background-color: rgba(32, 29, 29, 0.836);
+    color: rgb(226, 199, 196);
+    text-align: center;
+}
+.box p{
+    text-align: justify;
+}
+.box a{
+    text-decoration: none;
+    background-color: rgb(245, 8, 8);
+    color: rgb(238, 230, 222);
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    padding: 3px 0;
+    transition: all 1s ease;
+}
+.box a:hover{
+    background: black;
+    color: blanchedalmond;
+}
